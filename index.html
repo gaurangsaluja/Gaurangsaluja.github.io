@@ -162,7 +162,7 @@
       transition: color 0.2s;
     }
     .btn-ghost:hover { color: var(--accent); }
-    .btn-ghost::after { content: '→'; transition: transform 0.2s; }
+    .btn-ghost::after { content: ' →'; transition: transform 0.2s; }
     .btn-ghost:hover::after { transform: translateX(4px); }
 
     /* Decorative line */
@@ -702,7 +702,7 @@
     </div>
   </div>
   <div class="reveal">
-    <form class="contact-form" onsubmit="handleSubmit(event)">
+    <form class="contact-form" action="https://formspree.io/f/xnjgnaky" method="POST" onsubmit="handleSubmit(event)">
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">Name</label>
@@ -756,14 +756,4 @@
     reveals.forEach(el => observer.observe(el));
 
     // Form submit
-    function handleSubmit(e) {
-      e.preventDefault();
-      const btn = e.target.querySelector('.btn-submit');
-      btn.textContent = 'Message sent ✓';
-      btn.style.background = '#5A8A6A';
-      btn.disabled = true;
-    }
-  </script>
-
-</body>
-</html>
+    function h
