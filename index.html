@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gaurang Saluja - GEO and AI SEO Consultant</title>
-<meta name="description" content="Gaurang Saluja helps brands get found by AI. Specialising in GEO and AI-first SEO strategies.">
+<meta name="color-scheme" content="light">
+<title>Gaurang Saluja: Independent Sourcing Agent for Home Textiles and Décor</title>
+<meta name="description" content="Gaurang Saluja is an independent sourcing agent connecting wholesalers and importers with vetted home textile and décor manufacturers in India. Full transparency from factory to shipment.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light}
 :root{
   --cream:#F7F4EF;
   --ink:#141210;
@@ -33,7 +34,7 @@ nav.scrolled{border-bottom-color:var(--border)}
 .hero-eyebrow{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:2rem;font-weight:500;opacity:0;animation:fadeUp 0.8s 0.2s forwards}
 .hero-title{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:clamp(3.5rem,8vw,7.5rem);line-height:1.05;color:var(--ink);max-width:900px;opacity:0;animation:fadeUp 0.9s 0.35s forwards}
 .hero-title em{font-style:italic;color:var(--accent)}
-.hero-sub{margin-top:2.5rem;max-width:520px;font-size:1rem;color:var(--ink-soft);line-height:1.8;opacity:0;animation:fadeUp 0.9s 0.5s forwards}
+.hero-sub{margin-top:2.5rem;max-width:560px;font-size:1rem;color:var(--ink-soft);line-height:1.8;opacity:0;animation:fadeUp 0.9s 0.5s forwards}
 .hero-cta{margin-top:3.5rem;display:flex;gap:1.5rem;align-items:center;opacity:0;animation:fadeUp 0.9s 0.65s forwards}
 .btn-primary{display:inline-block;padding:0.9rem 2.2rem;background:var(--ink);color:var(--cream);text-decoration:none;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;font-weight:400;transition:background 0.25s,transform 0.2s}
 .btn-primary:hover{background:var(--accent);transform:translateY(-1px)}
@@ -47,8 +48,8 @@ section{padding:7rem 4rem}
 .section-label{font-size:0.7rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
 .section-title{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:clamp(2.2rem,4vw,3.5rem);line-height:1.15;color:var(--ink);margin-bottom:2.5rem}
 .divider{width:40px;height:1px;background:var(--accent);margin-bottom:3rem}
-#services{background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem}
+#how-it-works{background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.section-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border)}
 .service-card{padding:3rem 2.5rem;border-right:1px solid var(--border);transition:background 0.3s}
 .service-card:last-child{border-right:none}
@@ -58,16 +59,27 @@ section{padding:7rem 4rem}
 .service-desc{font-size:0.88rem;color:var(--ink-soft);line-height:1.8}
 .service-bullet{font-size:0.78rem;color:var(--ink-muted);margin-top:0.5rem}
 .service-tag{display:inline-block;margin-top:1.5rem;padding:0.3rem 0.8rem;background:var(--accent-light);color:var(--accent);font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;font-weight:500}
+#categories{background:var(--cream)}
+.categories-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.category-card{background:var(--white);padding:2.75rem 2.25rem;transition:background 0.3s}
+.category-card:hover{background:var(--cream)}
+.category-name{font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:400;color:var(--ink);margin-bottom:0.9rem;line-height:1.2}
+.category-items{font-size:0.85rem;color:var(--ink-soft);line-height:1.75}
+#why{background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.pillars-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:var(--border);border:1px solid var(--border)}
+.pillar-card{background:var(--white);padding:2.75rem 2.5rem 2.75rem 2.25rem;border-left:3px solid var(--accent)}
+.pillar-name{font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-weight:400;color:var(--ink);margin-bottom:0.85rem}
+.pillar-desc{font-size:0.85rem;color:var(--ink-soft);line-height:1.8}
 #pricing{background:var(--cream);border-top:1px solid var(--border)}
-.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:1100px;margin:0 auto}
-.price-card{background:var(--white);border:1px solid var(--border);padding:3rem 2.5rem;display:flex;flex-direction:column}
-.price-card.featured{background:var(--ink);border-color:var(--ink);position:relative}
+.pricing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;max-width:900px;margin:0 auto}
+.price-card{background:var(--white);border:1px solid var(--border);padding:3rem 2.5rem;display:flex;flex-direction:column;position:relative}
+.price-card.featured{background:var(--ink);border-color:var(--ink)}
 .price-badge{position:absolute;top:-1px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.3rem 1rem;white-space:nowrap}
 .price-label{font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
-.price-amount{font-family:"Cormorant Garamond",serif;font-size:3.5rem;font-weight:300;color:var(--ink);line-height:1}
+.price-amount{font-family:"Cormorant Garamond",serif;font-size:3.2rem;font-weight:300;color:var(--ink);line-height:1}
 .price-card.featured .price-amount{color:#F7F4EF}
-.price-period{font-size:0.75rem;color:var(--ink-muted);margin-top:0.3rem;margin-bottom:2rem}
-.price-card.featured .price-period{color:rgba(247,244,239,0.4)}
+.price-period{font-size:0.8rem;color:var(--ink-muted);margin-top:0.6rem;margin-bottom:2rem;line-height:1.5}
+.price-card.featured .price-period{color:rgba(247,244,239,0.55)}
 .price-features{display:flex;flex-direction:column;gap:0.75rem;flex:1}
 .price-feature{font-size:0.85rem;color:var(--ink-soft)}
 .price-card.featured .price-feature{color:rgba(247,244,239,0.75)}
@@ -75,18 +87,6 @@ section{padding:7rem 4rem}
 .price-cta:hover{background:var(--accent);transform:translateY(-1px)}
 .price-card.featured .price-cta{background:var(--accent);color:#fff}
 .price-card.featured .price-cta:hover{background:#C8975A}
-#about{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center}
-.about-visual{position:relative;height:480px}
-.about-block{background:var(--ink);position:absolute;inset:0}
-.about-block-accent{position:absolute;bottom:-1.5rem;right:-1.5rem;width:60%;height:60%;border:1px solid var(--accent);z-index:-1}
-.about-initials{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Cormorant Garamond",serif;font-size:8rem;font-weight:300;color:rgba(255,255,255,0.06);letter-spacing:-0.05em;user-select:none}
-.about-name-overlay{position:absolute;bottom:2.5rem;left:2.5rem}
-.about-name-overlay span{display:block;font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);margin-bottom:0.4rem}
-.about-name-overlay h3{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:1.8rem;color:#FFFFFF}
-.about-text p{font-size:0.95rem;color:var(--ink-soft);line-height:1.9;margin-bottom:1.2rem}
-.about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;padding-top:3rem;border-top:1px solid var(--border)}
-.stat-number{font-family:"Cormorant Garamond",serif;font-size:2.8rem;font-weight:300;color:var(--ink);line-height:1}
-.stat-label{font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin-top:0.4rem}
 #contact{background:var(--ink);color:var(--cream)}
 #contact .section-label{color:var(--accent)}
 #contact .section-title{color:var(--cream)}
@@ -120,17 +120,18 @@ footer{padding:2rem 4rem;background:var(--ink);border-top:1px solid rgba(247,244
   nav{padding:1.2rem 2rem}.nav-links{gap:1.2rem}
   #hero{padding:8rem 2rem 4rem}section{padding:5rem 2rem}
   .services-grid{grid-template-columns:1fr}.service-card{border-right:none;border-bottom:1px solid var(--border)}.service-card:last-child{border-bottom:none}
+  .categories-grid{grid-template-columns:1fr 1fr}
+  .pillars-grid{grid-template-columns:1fr}
   .pricing-grid{grid-template-columns:1fr}
-  #about{grid-template-columns:1fr;gap:3rem}.about-visual{height:320px}
   .contact-grid{grid-template-columns:1fr;gap:3rem}.form-row{grid-template-columns:1fr}
   footer{flex-direction:column;gap:1rem;text-align:center}
-  .services-header{flex-direction:column;align-items:flex-start;gap:1rem}
+  .section-header{flex-direction:column;align-items:flex-start;gap:1rem}
   .hero-line,.hero-number{display:none}
 }
 @media(max-width:600px){
   nav{padding:1rem 1.5rem}.nav-links{gap:0.8rem}.nav-links a{font-size:0.7rem}
   #hero{padding:7rem 1.5rem 3rem}section{padding:4rem 1.5rem}
-  .about-stats{grid-template-columns:1fr 1fr}
+  .categories-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -139,155 +140,191 @@ footer{padding:2rem 4rem;background:var(--ink);border-top:1px solid rgba(247,244
 <nav id="navbar">
   <a href="#hero" class="nav-logo">Gaurang Saluja</a>
   <ul class="nav-links">
-    <li><a href="#services">Services</a></li>
+    <li><a href="#how-it-works">How I Work</a></li>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="#why">Why Me</a></li>
     <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
 <section id="hero">
-  <p class="hero-eyebrow">GEO &amp; AI SEO Consultant</p>
-  <h1 class="hero-title">Your brand,<br>in every<br><em>AI answer.</em></h1>
-  <p class="hero-sub">The search landscape has shifted. AI now answers before users click. I help brands optimise for the new era where visibility means appearing in the answers, not just the results.</p>
+  <p class="hero-eyebrow">Independent Sourcing Agent for Home Textiles and Décor</p>
+  <h1 class="hero-title">Your buying office,<br>inside<br><em>India's textile belt.</em></h1>
+  <p class="hero-sub">India's home textile industry manufactures at a scale few markets can match. I connect wholesalers and importers directly with vetted factories, then manage the order from first sample through to the container leaving port.</p>
   <div class="hero-cta">
-    <a href="#contact" class="btn-primary">Work with me</a>
-    <a href="#services" class="btn-ghost">See services</a>
+    <a href="#contact" class="btn-primary">Start sourcing</a>
+    <a href="#how-it-works" class="btn-ghost">See how it works</a>
   </div>
   <div class="hero-line"></div>
   <span class="hero-number">gaurangsaluja.com</span>
 </section>
 
-<section id="services">
-  <div class="services-header reveal">
+<section id="how-it-works">
+  <div class="section-header reveal">
     <div>
-      <p class="section-label">What I deliver</p>
-      <h2 class="section-title">Strategy &amp; audit reports<br><em style="font-family:Cormorant Garamond,serif;font-style:italic">not just advice</em></h2>
+      <p class="section-label">How I Work</p>
+      <h2 class="section-title">Structured sourcing,<br><em style="font-family:'Cormorant Garamond',serif;font-style:italic">stage by stage</em></h2>
     </div>
-    <p style="max-width:340px;font-size:0.85rem;color:var(--ink-muted);line-height:1.8">Every engagement delivers a clear, actionable document your team can implement immediately. No retainer required.</p>
+    <p style="max-width:340px;font-size:0.85rem;color:var(--ink-muted);line-height:1.8">Three stages, one person accountable for all of them. You always know which stage your order is at.</p>
   </div>
   <div class="services-grid reveal">
     <div class="service-card">
       <p class="service-number">01</p>
-      <h3 class="service-name">GEO Visibility Audit</h3>
-      <p class="service-desc">A thorough analysis of how your brand currently appears in AI-generated answers across ChatGPT, Perplexity, Gemini, and others. Delivered as a clear report with prioritised gaps and quick wins.</p>
+      <h3 class="service-name">Discovery</h3>
+      <p class="service-desc">I analyse your product requirement, shortlist verified factories in the right category, and run background checks before any names reach you. You get catalogues, quotes and certifications to compare side by side.</p>
       <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.5rem">
-        <p class="service-bullet">+ AI answer presence analysis</p>
-        <p class="service-bullet">+ Competitor citation comparison</p>
-        <p class="service-bullet">+ Prioritised gap report</p>
+        <p class="service-bullet">+ Requirement and category analysis</p>
+        <p class="service-bullet">+ Verified supplier shortlist</p>
+        <p class="service-bullet">+ Background and capability checks</p>
       </div>
-      <span class="service-tag">Audit Report</span>
+      <span class="service-tag">Typically 1 to 2 weeks</span>
     </div>
     <div class="service-card">
       <p class="service-number">02</p>
-      <h3 class="service-name">AI SEO Strategy Doc</h3>
-      <p class="service-desc">A detailed strategic roadmap covering topic clusters, schema recommendations, entity optimisation, and content priorities. Structured so your existing team can execute without hand-holding.</p>
+      <h3 class="service-name">Order Finalisation</h3>
+      <p class="service-desc">Once you've chosen a factory, I negotiate price, MOQ and payment terms, finalise the contract, and get pre production samples approved before a single unit goes into production.</p>
       <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.5rem">
-        <p class="service-bullet">+ Topic and entity strategy</p>
-        <p class="service-bullet">+ Schema and structured data plan</p>
-        <p class="service-bullet">+ 90-day content roadmap</p>
+        <p class="service-bullet">+ Price and MOQ negotiation</p>
+        <p class="service-bullet">+ Contract and payment terms</p>
+        <p class="service-bullet">+ Pre production sample approval</p>
       </div>
-      <span class="service-tag">Strategy Doc</span>
+      <span class="service-tag">Typically 2 to 3 weeks</span>
     </div>
     <div class="service-card">
       <p class="service-number">03</p>
-      <h3 class="service-name">Monthly Advisory</h3>
-      <p class="service-desc">Ongoing strategic guidance as the AI search landscape evolves. Monthly reports on your brand visibility progress, updated recommendations, and direct email access to Gaurang.</p>
+      <h3 class="service-name">Fulfilment</h3>
+      <p class="service-desc">I stay on the factory floor through production, running inline, midline and final inspections, checking packaging and export documentation, and coordinating shipping so your order lands on time and as ordered.</p>
       <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.5rem">
-        <p class="service-bullet">+ Monthly visibility report</p>
-        <p class="service-bullet">+ Updated recommendations</p>
-        <p class="service-bullet">+ Direct email access</p>
+        <p class="service-bullet">+ Inline, midline and final inspection</p>
+        <p class="service-bullet">+ Packaging and documentation checks</p>
+        <p class="service-bullet">+ Shipping and logistics coordination</p>
       </div>
-      <span class="service-tag">Ongoing</span>
+      <span class="service-tag">Through to dispatch</span>
     </div>
   </div>
   <div class="reveal" style="margin-top:2rem;padding:2rem 2.5rem;border:1px solid var(--border);background:var(--white);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem">
-    <p style="font-size:0.9rem;color:var(--ink-soft);max-width:520px">Every package is a <strong style="font-weight:500;color:var(--ink)">standalone deliverable</strong>. A polished document your team can act on immediately. No implementation lock-in.</p>
+    <p style="font-size:0.9rem;color:var(--ink-soft);max-width:520px">Every stage is documented as it happens. Inspection photos, factory quotes and production updates go <strong style="font-weight:500;color:var(--ink)">straight to you</strong>, not filtered through a sales layer.</p>
     <a href="#contact" class="btn-primary">Get a quote</a>
+  </div>
+</section>
+
+<section id="categories">
+  <div class="section-header reveal">
+    <div>
+      <p class="section-label">What I Source</p>
+      <h2 class="section-title">Home textiles and décor,<br>organised by category</h2>
+    </div>
+    <p style="max-width:340px;font-size:0.85rem;color:var(--ink-muted);line-height:1.8">Every category below is sourced through factories I can personally vet across India's home textile manufacturing belt.</p>
+  </div>
+  <div class="categories-grid reveal">
+    <div class="category-card">
+      <h3 class="category-name">Bedding & Comfort</h3>
+      <p class="category-items">Bedsheets, quilts, duvet covers, pillowcases, mattress protectors and throws.</p>
+    </div>
+    <div class="category-card">
+      <h3 class="category-name">Table Items</h3>
+      <p class="category-items">Tablecloths, table runners, placemats, napkins and coasters.</p>
+    </div>
+    <div class="category-card">
+      <h3 class="category-name">Kitchen Items</h3>
+      <p class="category-items">Kitchen towels, aprons, oven mitts and pot holders.</p>
+    </div>
+    <div class="category-card">
+      <h3 class="category-name">Floor Coverings</h3>
+      <p class="category-items">Rugs, dhurries, bath mats and door mats.</p>
+    </div>
+    <div class="category-card">
+      <h3 class="category-name">Decorative Items</h3>
+      <p class="category-items">Cushion covers, curtains, wall hangings and other décor accents.</p>
+    </div>
+  </div>
+  <div class="reveal" style="margin-top:2rem;padding:2rem 2.5rem;border:1px solid var(--border);background:var(--white);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem">
+    <p style="font-size:0.9rem;color:var(--ink-soft);max-width:560px">Sourcing needs outside these five? I take on adjacent home textile and décor categories on request, and I also help with <strong style="font-weight:500;color:var(--ink)">product development</strong>, from custom designs to private label samples, if you're building something new rather than sourcing an existing line.</p>
+    <a href="#contact" class="btn-primary">Discuss your product</a>
+  </div>
+</section>
+
+<section id="why">
+  <div class="reveal" style="max-width:640px;margin-bottom:4rem">
+    <p class="section-label">Why Work With Me</p>
+    <h2 class="section-title">Built around transparency,<br>not around scale</h2>
+    <div class="divider"></div>
+    <p style="font-size:0.95rem;color:var(--ink-soft);line-height:1.9">Large buying houses win on scale. I win by being the one person you can actually reach, with nothing hidden between the factory's price and yours.</p>
+  </div>
+  <div class="pillars-grid reveal">
+    <div class="pillar-card">
+      <h3 class="pillar-name">Full Transparency</h3>
+      <p class="pillar-desc">Every quote, inspection report and factory communication is shared with you directly. Commission is invoiced separately from the product price, so you always see what you're paying for sourcing versus goods.</p>
+    </div>
+    <div class="pillar-card">
+      <h3 class="pillar-name">Direct Factory Access</h3>
+      <p class="pillar-desc">Sourced directly from India's home textile manufacturing belt, without layers of middlemen between you and the factory floor.</p>
+    </div>
+    <div class="pillar-card">
+      <h3 class="pillar-name">Quality Control</h3>
+      <p class="pillar-desc">Inline, midline and final inspections on every order, with written and photo reports before goods are cleared to ship.</p>
+    </div>
+    <div class="pillar-card">
+      <h3 class="pillar-name">Compliance Ready</h3>
+      <p class="pillar-desc">Familiar with BSCI, SEDEX and WRAP requirements, so your orders are prepared for the audits your own buyers expect.</p>
+    </div>
+    <div class="pillar-card">
+      <h3 class="pillar-name">Single Point of Contact</h3>
+      <p class="pillar-desc">One person accountable for your order from first sample to final shipment, reachable directly rather than through a support queue.</p>
+    </div>
+    <div class="pillar-card">
+      <h3 class="pillar-name">Built for Repeat Business</h3>
+      <p class="pillar-desc">Priced and structured for buyers who plan to reorder, not for a single transaction.</p>
+    </div>
   </div>
 </section>
 
 <section id="pricing">
   <div class="reveal" style="text-align:center;margin-bottom:4rem">
     <p class="section-label">Investment</p>
-    <h2 class="section-title" style="margin-bottom:0.5rem">Simple, transparent pricing</h2>
-    <p style="font-size:0.9rem;color:var(--ink-muted);max-width:480px;margin:0 auto">Every package is a fixed deliverable. No hourly billing, no surprises.</p>
+    <h2 class="section-title" style="margin-bottom:0.5rem">Straightforward pricing,<br>no hidden margin</h2>
+    <p style="font-size:0.9rem;color:var(--ink-muted);max-width:480px;margin:0 auto">Two ways to work together, based on order size. Either way, you see the fee before any supplier is contacted.</p>
   </div>
   <div class="pricing-grid reveal">
     <div class="price-card">
-      <p class="price-label">GEO Visibility Audit</p>
-      <p class="price-amount">From $299</p>
-      <p class="price-period">one-time</p>
+      <p class="price-label">Standard Sourcing</p>
+      <p class="price-amount">$599</p>
+      <p class="price-period">flat fee, one time,<br>for orders under $12,000 FOB</p>
       <div class="price-features">
-        <p class="price-feature">+ AI answer presence analysis</p>
-        <p class="price-feature">+ Competitor citation comparison</p>
-        <p class="price-feature">+ Prioritised gap report</p>
-        <p class="price-feature">+ Delivered within 5 business days</p>
+        <p class="price-feature">+ Supplier identification in one category</p>
+        <p class="price-feature">+ Price and MOQ negotiation</p>
+        <p class="price-feature">+ Final inspection before shipment</p>
+        <p class="price-feature">+ Full documentation shared with you</p>
+        <p class="price-feature">+ Direct contact through dispatch</p>
       </div>
       <a href="#contact" class="price-cta">Get started</a>
     </div>
     <div class="price-card featured">
-      <span class="price-badge">Most Popular</span>
-      <p class="price-label">AI SEO Strategy Doc</p>
-      <p class="price-amount">From $499</p>
-      <p class="price-period">one-time</p>
+      <span class="price-badge">For Growing Orders</span>
+      <p class="price-label">Volume Sourcing</p>
+      <p class="price-amount">4 to 7%</p>
+      <p class="price-period">of FOB order value,<br>for orders above $12,000</p>
       <div class="price-features">
-        <p class="price-feature">+ Topic and entity strategy</p>
-        <p class="price-feature">+ Schema and structured data plan</p>
-        <p class="price-feature">+ 90-day content roadmap</p>
-        <p class="price-feature">+ Delivered within 7 business days</p>
-      </div>
-      <a href="#contact" class="price-cta">Get started</a>
-    </div>
-    <div class="price-card">
-      <p class="price-label">Monthly Advisory</p>
-      <p class="price-amount">From $599</p>
-      <p class="price-period">per month</p>
-      <div class="price-features">
-        <p class="price-feature">+ Monthly visibility report</p>
-        <p class="price-feature">+ Updated recommendations</p>
-        <p class="price-feature">+ Direct email access</p>
-        <p class="price-feature">+ Cancel anytime</p>
+        <p class="price-feature">+ Multi category supplier sourcing</p>
+        <p class="price-feature">+ Factory audits and contract negotiation</p>
+        <p class="price-feature">+ Inline, midline and final inspection</p>
+        <p class="price-feature">+ Full production visibility</p>
+        <p class="price-feature">+ Shipping and logistics coordination</p>
       </div>
       <a href="#contact" class="price-cta">Get started</a>
     </div>
   </div>
-  <p class="reveal" style="text-align:center;font-size:0.8rem;color:var(--ink-muted);margin-top:2.5rem">All prices in USD. Not sure which package suits you? <a href="#contact" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)">Send me a message</a> and I will help you decide.</p>
-</section>
-
-<section id="about">
-  <div class="about-visual reveal">
-    <div class="about-block">
-      <div class="about-initials">GS</div>
-      <div class="about-name-overlay">
-        <span>Consultant</span>
-        <h3>Gaurang Saluja</h3>
-      </div>
-    </div>
-    <div class="about-block-accent"></div>
-  </div>
-  <div class="about-text reveal">
-    <p class="section-label">About me</p>
-    <h2 class="section-title">Helping brands stay visible as search evolves</h2>
-    <div class="divider"></div>
-    <p>I am Gaurang, a GEO and AI SEO specialist focused on one thing: making sure your brand shows up when AI systems answer the questions your customers are asking.</p>
-    <p>As generative search reshapes how people discover businesses, the old playbooks are fading. I bridge the gap between traditional SEO expertise and the new mechanics of AI-powered search engines.</p>
-    <p>Whether you are a growing brand or an established business, I will help you stay visible, not just in search results, but in the answers.</p>
-    <div class="about-stats">
-      <div><p class="stat-number">GEO</p><p class="stat-label">Specialist</p></div>
-      <div><p class="stat-number">AI</p><p class="stat-label">SEO Expert</p></div>
-      <div><p class="stat-number">∞</p><p class="stat-label">Visibility</p></div>
-    </div>
-  </div>
+  <p class="reveal" style="text-align:center;font-size:0.8rem;color:var(--ink-muted);margin-top:2.5rem">All fees are agreed upfront, before any supplier is contacted. Not sure which fits your order? <a href="#contact" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)">Send me a message</a> and I'll help you work it out.</p>
 </section>
 
 <section id="contact">
   <div class="contact-grid">
     <div class="reveal">
-      <p class="section-label">Get in touch</p>
-      <h2 class="section-title">Lets talk about your visibility</h2>
+      <p class="section-label">Get in Touch</p>
+      <h2 class="section-title">Let's talk about<br>your next order</h2>
       <div class="divider"></div>
-      <p class="contact-intro">Ready to appear in AI-generated answers? Tell me about your business and I will get back to you within 24 hours.</p>
+      <p class="contact-intro">Looking to source home textiles or décor from India? Tell me what you need and I'll get back to you within 24 hours.</p>
       <div class="contact-detail">
         <div class="contact-item">
           <span class="contact-item-label">Email</span>
@@ -312,12 +349,12 @@ footer{padding:2rem 4rem;background:var(--ink);border-top:1px solid rgba(247,244
           </div>
         </div>
         <div class="form-group">
-          <label class="form-label">Website (optional)</label>
-          <input type="text" name="website" class="form-input" placeholder="yourdomain.com">
+          <label class="form-label">Company (optional)</label>
+          <input type="text" name="company" class="form-input" placeholder="Your company">
         </div>
         <div class="form-group">
           <label class="form-label">Message</label>
-          <textarea name="message" class="form-textarea" placeholder="Tell me about your project..."></textarea>
+          <textarea name="message" class="form-textarea" placeholder="Tell me what you're looking to source..."></textarea>
         </div>
         <button type="submit" class="btn-submit">Send message</button>
       </form>
